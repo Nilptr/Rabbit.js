@@ -1,4 +1,16 @@
 {
   "name": "rabbit",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "description": "a simple Promise/A+ implementation",
+  "keywords": [
+    "promises",
+    "promises-aplus"
+  ],
+  "main": "lib/promise.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.1"
+  }
 }
